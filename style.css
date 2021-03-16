@@ -1,4 +1,62 @@
-p
-{
-    color: blue;
+body{
+background-color: #f2ddd9;
 }
+
+h1
+{
+    font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.stat
+{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2
+{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 25px;
+    position:relative;
+    top: -300px;
+    left: 50px;
+}
+
+.bio
+{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 20px;
+    position:relative;
+    top: -300px;
+    left: 50px;
+}
+
+
+.hat
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    position:relative;
+    top: 20px;
+    left: 50px;
+}
+
+.img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    position:relative;
+    top: -340px;
+    left: 50px;
+
+}
+
