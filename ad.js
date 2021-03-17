@@ -1,45 +1,15 @@
-// let animation = anime({
-//     targets: 'h1',
-//     easing: 'linear',
-//     translateX: '30%',
-// })
-
-// let tl = anime.timeline({
-//     duration: 750
-// })
-
-// tl.add({
-//     targets: 'h1',
-//     translateX: '30%'
-// })
-// tl.add({
-//     targets: 'h1',
-//     translateY: '30%'
-// })
-
-// tl.add({
-//     targets: 'h1',
-//     translateX: '0%'
-// })
-
-// tl.add({
-//     targets: 'p',
-//     translateY: '-30%'
-// })
-
-
 var easing = anime({
     targets: '.img',
     keyframes: [
         {translateY: 0},
-        {translateX: 650},
+        {translateX: 1200},
         {translateY: 0},
-        {translateX: 1250},
+        {translateX: 2300},
         {translateY: 0}
       ],
-      duration: 4000,
+      duration: 10000,
       easing: 'easeOutElastic(1, .8)',
-      loop: true
+      loop: 1
 });
 
 
