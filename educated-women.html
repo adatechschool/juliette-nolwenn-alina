@@ -8,12 +8,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Shippori+Mincho+B1:wght@700&display=swap" rel="stylesheet"> 
   <title>Femmes & éducation</title>
+  <script type="text/javascript"> 
+    function refresh(){
+        var t = 1000; // rafraîchissement en millisecondes
+        setTimeout('showDate()',t)
+    }
+    
+    function showDate() {
+        var date = new Date()
+        var h = date.getHours();
+        var m = date.getMinutes();
+        var s = date.getSeconds();
+        if( h < 10 ){ h = '0' + h; }
+        if( m < 10 ){ m = '0' + m; }
+        if( s < 10 ){ s = '0' + s; }
+        var time = h + ':' + m + ':' + s
+        document.getElementById('horloge').innerHTML = time;
+        refresh();
+     }
+ </script>
 </head>
-
 <body>
-<main>
+  <body onload=showDate();>
+    <span id='horloge' style="background-color:#1C1C1C;color:silver;font-size:40px;"></span>
+ </body>
+
   <h1>Femmes & éducation</h1>
-</main>
+
 
 <p class="stat">
   En France, une femme commence des études <br>dans l’enseignement supérieur toutes les 20 secondes.
