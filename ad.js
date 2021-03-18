@@ -1,15 +1,23 @@
-function move(){
-  var easing = anime({
-    targets: '.img',
-    translateX: 1200,
+async function move(woman){
+  var easing1 = anime({
+    targets: woman,
+    translateX: [0,1200],
+    duration : 4000,
     easing: 'easeInOutQuart',
-  });
+  }).finished;
+  await Promise.all([easing1]);
 }
+move().then(() => {
+  anime({
+    targets: '.michelle',
+    translateX: [1200,2400],
+    delay: 5000,
+    duration : 5000,
+    easing: 'easeInOutQuart',
+  })
+});
 
-var element = document.getElementsByClassName("img");
-var position = element[6];
-console.log(position)
-move()
+move('.michelle')
 
 var arrayWomen =  [
   { "name" : "Malala Yousafzai",
@@ -68,37 +76,18 @@ var arrayWomen =  [
 ]
 
 
-function refresh(){
-  var t = 1000; // rafraîchissement en millisecondes
-  setTimeout('showDate()',t)
-}
 
-function showDate() {
-  var date = new Date()
-  var h = date.getHours();
-  var m = date.getMinutes();
-  var s = date.getSeconds();
-  if( h < 10 ){ h = '0' + h; }
-  if( m < 10 ){ m = '0' + m; }
-  if( s < 10 ){ s = '0' + s; }
-  var time = h + ':' + m + ':' + s
-  document.getElementById('horloge').innerHTML = time;
-  refresh();
-}
-
-
-
-// var easing = anime({
-//     targets: '.img',
-//     keyframes: [
-//         {translateY: 0},
-//         {translateX: 1200},
-//         {translateY: 0},
-//         {translateX: 2300},
-//         {translateY: 0}
-//       ],
-//       duration: 10000,
-//       easing: 'easeOutElastic(1, .8)',
-//       loop: 1
-// });
+// // var easing = anime({
+// //     targets: '.img',
+// //     keyframes: [
+// //         {translateY: 0},
+// //         {translateX: 1200},
+// //         {translateY: 0},
+// //         {translateX: 2300},
+// //         {translateY: 0}
+// //       ],
+// //       duration: 10000,
+// //       easing: 'easeOutElastic(1, .8)',
+// //       loop: 1
+// // });
 
