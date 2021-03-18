@@ -1,14 +1,21 @@
 # Organisation de l'équipe
 
-*Le but de ce fichier est de mettre à plat l'organisation de votre équipe et de votre semaine de projet - il est à remplir le lundi du lancement du projet et à présenter à l'encadrante du jour*
+
 
 ## Roadmap
 
-- Produire un découpage de features et créer autant  d'"issues" sur votre repo (selon la méthode vue avec Adrien en plénière)
+- Afficher une page web avec un titre, une image de femme et sa bio
+- Ajouter un chapeau au dessus de la tête du personnage
+- Faire entrer le personnage par la gauche, arrêt au milieu, puis sortie par la droite
+- Faire défiler le prochain personnage lorsque le précédent est sorti
+- Le chapeau reste sur la tête du personnage lorsqu'il sort
+- Apparition de la bio lorsque le personnage est au milieu puis disparait
+- Bloquer le scroll de l'écran
+- Choisir un background et faire la mise en forme graphique
+- Lier une API
 
 
 ## Mode de fonctionnement 
 
-- Expliciter ici sous quel mode vous allez fonctionner : en mob programming à 3 ou 4, et pair programming par binômes, individuellement, etc.
-- Si vous ne travaillez pas en mob programming, indiquez également quels sont les rituels que vous comptez mettre en place pour (1) faire des points de synchronisation au sein de l'équipe et partager votre avancement et (2) mettre en commun votre code et vérifier que l'ensemble du projet fonctionne bien.
-- Notez enfin les règles de gestion que vous décidez de mettre en place pour le repo : utilisation des branches, utilisation des pulls requests, process de validation des pulls requests avant de les fusionner, etc.
+Nous mélangeons du mob programming et de l'individuel :
+A chaque nouvelle étape on fait des recherches et des tests individuels puis nous mettons en commun et une personne tape le code.
