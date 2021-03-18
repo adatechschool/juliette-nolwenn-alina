@@ -15,3 +15,9 @@ Mercredi 17/03 :
 On a choisi anime.js comme library pour notre projet. 
 On commence à faire des animations.
 Michelle bouge !
+
+Jeudi 18/03 :
+On a longtemps bloqué sur le mouvement de Michelle :
+elle s'arrêtait au milieu de l'écran comme souhaité mais nous n'arrivions pas à la faire repartir.
+Problème résolu.
+Etape suivante : que la prochaine femme arrive quand Michelle sort.
