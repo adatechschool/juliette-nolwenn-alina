@@ -1,5 +1,8 @@
-body{
-    background-color: #f2ddd9;
+    body{
+    color:black;
+    background: white
+    url(https://locations.univ-paris1.fr/wp-content/uploads/2018/04/amphirichelieu-autre7.jpg) 
+    fixed no-repeat center center;
     }
     
     h1
@@ -59,6 +62,7 @@ body{
         top: -360px;
         left: -1200px;
         z-index: -1;
+        animation-fill-mode: forwards;
     }
     
     
