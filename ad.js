@@ -12,7 +12,7 @@ move().then(() => {
   anime({
     targets: woman,
     translateX: [1200,2400],
-    delay: 5000,
+    delay: 2000,
     duration : 5000,
     easing: 'easeInOutQuart',
   })
@@ -22,10 +22,10 @@ move().then(() => {
 function displayAllWomen(){
   var arrayWomen = ['.michelle','.malala','.simone','.alexandria','.emma','.françoise','.amal','.claudie','.marie','.kamala','.virginie','.wangari']
   for (let index = 0; index < arrayWomen.length; index++) {
-    moveWoman([index]);    
+    moveWoman(arrayWomen[index]);  
   }
 }
 
 
-
+displayAllWomen()
 

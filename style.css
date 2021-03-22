@@ -24,8 +24,8 @@
         font-family: 'Roboto Slab', serif;
         text-align: center;
         font-size: 25px;
-        position:relative;
-        top: -300px;
+        position:absolute;
+        top: -1800px;
     
     }
     
@@ -34,8 +34,8 @@
         font-family: 'Roboto Slab', serif;
         text-align: center;
         font-size: 20px;
-        position:relative;
-        top: -300px;
+        position:absolute;
+        top: 1000px;
     
     }
     
@@ -56,9 +56,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -790px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -69,9 +69,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -1800px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -82,9 +82,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -2600px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -95,9 +95,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -3200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -108,9 +108,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -4200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -120,9 +120,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -5200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -133,9 +133,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -6200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -145,9 +145,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -7200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -158,9 +158,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -8200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -171,9 +171,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -9200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -184,9 +184,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -10200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -197,9 +197,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
+        position: absolute;
+        top: 230px;
+        left: -11200px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
