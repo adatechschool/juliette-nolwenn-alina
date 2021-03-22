@@ -58,7 +58,7 @@
         width: 300px;
         position: absolute;
         top: 230px;
-        left: -790px;
+        left: -625px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
@@ -71,7 +71,7 @@
         width: 300px;
         position: absolute;
         top: 230px;
-        left: -1800px;
+        left: -1850px;
         z-index: -1;
         animation-fill-mode: forwards;
     }
