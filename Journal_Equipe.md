@@ -21,3 +21,6 @@ On a longtemps bloqué sur le mouvement de Michelle :
 elle s'arrêtait au milieu de l'écran comme souhaité mais nous n'arrivions pas à la faire repartir.
 Problème résolu.
 Etape suivante : que la prochaine femme arrive quand Michelle sort.
+
+Lundi 22/03 :
+Nous avons terminé les animations, mis un fond et travaillé sur la mise en page.
