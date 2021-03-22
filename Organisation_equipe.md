@@ -4,14 +4,17 @@
 
 ## Roadmap
 
-- Afficher une page web avec un titre, une image de femme et sa bio
-- Ajouter un chapeau au dessus de la tête du personnage
-- Faire entrer le personnage par la gauche, arrêt au milieu, puis sortie par la droite
+- Afficher une page web avec un titre, une image de femme et sa bio #done 
+- Ajouter un chapeau au dessus de la tête du personnage #done
+- Faire entrer le personnage par la gauche, arrêt au milieu, puis sortie par la droite #done
 - Faire défiler le prochain personnage lorsque le précédent est sorti
 - Le chapeau reste sur la tête du personnage lorsqu'il sort
 - Apparition de la bio lorsque le personnage est au milieu puis disparait
 - Bloquer le scroll de l'écran
 - Choisir un background et faire la mise en forme graphique
+
+
+Si tout est fini avant jeudi :
 - Lier une API
 
 
