@@ -1,6 +1,6 @@
     body{
     color:black;
-    background: white
+    background: rgb(240, 199, 199)
     }
     
     h1
@@ -19,193 +19,48 @@
         font-size: 30px;
     }
     
-    h2
+
+    .mySlides 
+    {
+        display:none;
+        height:430px;
+        margin-left:75px;  
+    }
+
+    .container
+    {
+        max-width:500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -475px;
+
+    }
+
+
+    .name
     {
         font-family: 'Roboto Slab', serif;
         text-align: center;
         font-size: 25px;
-        position:relative;
-        top: -300px;
-    
+        font-weight: 1000;
     }
     
     .bio
     {
         font-family: 'Roboto Slab', serif;
-        text-align: center;
         font-size: 20px;
-        position:relative;
-        top: -300px;
-    
+        /* width:500px; */
+        text-align: center;
     }
     
     .hat
     {
-        display: block;
+        display: none;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: 20px;
+        width: 375px;
+        z-index: 20;
         
     }
-    
-    .michelle
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .malala
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .simone
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .alexandria
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .emma
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-    .françoise
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .amal
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-    .claudie
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .marie
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .kamala
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .virginie
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-
-    .wangari
-    {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 300px;
-        position: relative;
-        top: -360px;
-        left: -1200px;
-        z-index: -1;
-        animation-fill-mode: forwards;
-    }
-    
-    
-    
-    
     
     

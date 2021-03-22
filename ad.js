@@ -1,31 +1,45 @@
-function moveWoman(woman){
-async function move(){
-  var easing1 = anime({
-    targets: woman,
-    translateX: [0,1200],
-    duration : 4000,
-    easing: 'easeInOutQuart',
-  }).finished;
-  await Promise.all([easing1]);
-}
-move().then(() => {
-  anime({
-    targets: woman,
-    translateX: [1200,2400],
-    delay: 5000,
-    duration : 5000,
-    easing: 'easeInOutQuart',
-  })
-});
-}
+var myIndex = 0;
+carousel();
 
-function displayAllWomen(){
-  var arrayWomen = ['.michelle','.malala','.simone','.alexandria','.emma','.françoise','.amal','.claudie','.marie','.kamala','.virginie','.wangari']
-  for (let index = 0; index < arrayWomen.length; index++) {
-    moveWoman([index]);    
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
   }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000); // Change image every 2 seconds
 }
 
 
+var slideIndex = 0;
+slide();
 
+function slide() {
+  var i;
+  var x = document.getElementsByClassName("myText");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}    
+  x[slideIndex-1].style.display = "block";  
+  setTimeout(slide, 9000);    
+}
 
+var hatIndex = 0;
+moveHat();
+
+function moveHat() {
+  var i;
+  var x = document.getElementsByClassName("hat");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  hatIndex++;
+  if (hatIndex > x.length) {hatIndex = 1}    
+  x[hatIndex-1].style.display = "block";  
+  setTimeout(moveHat, 9000); // Change image every 2 seconds
+}
