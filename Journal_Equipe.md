@@ -23,4 +23,4 @@ Problème résolu.
 Etape suivante : que la prochaine femme arrive quand Michelle sort.
 
 Lundi 22/03 :
-Nous avons terminé les animations, mis un fond et travaillé sur l’esthétique de notre page.
+Nous avons terminé les animations, mis un fond et travaillé sur la mise en page.
