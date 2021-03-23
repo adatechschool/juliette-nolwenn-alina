@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en-us">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+  <link href="/css/style.css" rel="stylesheet">
+  <link href="/css/syntax.css" rel="stylesheet">
+  <link rel="stylesheet" href="testStyle.css" /> 
+  <title>ISS location</title>
+ </head>
+<body>
+<div id="content">
+ <div class="container">
+  <div class="row">
+   <div class="span8">
+    <script src='http://code.jquery.com/jquery-2.0.3.min.js'> </script>
+<p>Current Location of the International Space Station</p>
+ <p>The ISS is currently over <span id='isslat'>?</span>&deg; N, <span id='isslon'>?</span>&deg; E</p></li>
+<script>
+function getISS () {
+    $.getJSON('http://api.open-notify.org/iss-now.json?callback=?', function(data) {
+        var lat = data['iss_position']['latitude'];
+        var lon = data['iss_position']['longitude'];
+        $('#isslat').html(Math.round(lat*1000)/1000.0);
+        $('#isslon').html(Math.round(lon*1000)/1000.0);
+    });
+    setTimeout(getISS, 3000); 
+}
+getISS();
+</script>
+</body>
+</html>
