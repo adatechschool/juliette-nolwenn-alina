@@ -6,18 +6,34 @@
 <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
 <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
 <style>
 body { margin: 0; padding: 0; }
 #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-</style>
-</head>
-<body>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+ </style>
+ </head>
+ <body>
+    <style type="text/css">
+        #info {
+        position: relative;
+        left: 300px;
+        margin: 0px auto;
+        width: 30%;
+        padding: 20px;
+        border-radius: 3px;
+        font-family: 'Inconsolata', monospace;
+        font-size: 24px;
+        text-align: center;
+        color: #222;
+        background: #fff;
+        }
+    </style>
+
 <div id="map"></div>
+<div id="info">International Space Station</div>
  
 <script>
-    // TO MAKE THE MAP APPEAR YOU MUST
-    // ADD YOUR ACCESS TOKEN FROM
-    // https://account.mapbox.com
     mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpbmEtYWxlIiwiYSI6ImNrbW0xZnJ2bjFnNWIyb3BmMXBvdGRscGkifQ.DyeNyPOmBH_1ZyumG9c6fQ';
 var map = new mapboxgl.Map({
     container: 'map',
