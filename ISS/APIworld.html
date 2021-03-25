@@ -9,9 +9,12 @@
  </head>
  
  <body>
+    <script src='http://code.jquery.com/jquery-2.0.3.min.js'> </script>
 <!-- html -->
     <div id="map"></div>
-    <div id="info">International Space Station</div>
+    <div id="info">
+        <p>The International Space Station is currently over <br> <span id='isslat'>?</span>&deg; N, <span id='isslon'>?</span>&deg; E</p>
+    </div>
 
 <!-- style ccs -->
     <style>
@@ -37,6 +40,16 @@
 
 <!-- javascript -->
     <script>
+function getISS () {
+    $.getJSON('http://api.open-notify.org/iss-now.json?callback=?', function(data) {
+        var lat = data['iss_position']['latitude'];
+        var lon = data['iss_position']['longitude'];
+        $('#isslat').html(Math.round(lat*1000)/1000.0);
+        $('#isslon').html(Math.round(lon*1000)/1000.0);
+    });
+    setTimeout(getISS, 3000); 
+}
+getISS();
     // set up the map
         mapboxgl.accessToken = 'pk.eyJ1IjoiYWxpbmEtYWxlIiwiYSI6ImNrbW0xZnJ2bjFnNWIyb3BmMXBvdGRscGkifQ.DyeNyPOmBH_1ZyumG9c6fQ';
     var map = new mapboxgl.Map({
@@ -81,6 +94,7 @@
         'source': 'drone',
         'layout': {
         'icon-image': 'rocket-15',
+        // 'iconSize': [60, 60]
         }
     });
     });
